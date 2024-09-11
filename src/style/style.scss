@@ -1,0 +1,55 @@
+
+* {
+    font-family: 'Roboto Mono', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scrollbar-width: auto;
+    scrollbar-color: #c2c2c2 #5C5C5C;
+}
+
+html,body {
+    height: 100%;
+}
+body {
+    font-family: sans-serif;
+    padding: 30px;
+}
+
+ul,
+li,
+dl {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+  
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+  
+a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    &:hover {
+        text-decoration: none;
+        color: inherit;
+    }
+}
+  
+p {
+    margin: 0;
+    padding: 0;
+}
+  
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; 
+}

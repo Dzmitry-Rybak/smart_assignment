@@ -1,0 +1,45 @@
+$scale-factor: 1.009;
+
+thead {
+    background-color: #f2f2f2;
+    color: #333; 
+    font-weight: bold; 
+}
+th {
+    color: gray;
+}
+th, td {
+    font-size: 14px;
+    padding: 10px;
+    border-right: none;
+    border-left: none;
+    text-align: left;
+    border-color: #f2f2f2;
+}
+
+th input {
+    border-radius: 7px;
+    margin-left: 10px;
+    height: 25px;
+    padding: 12px;
+}
+
+input {
+    border-color: rgb(68, 91, 87);
+}
+
+.empty_table {
+    text-align: center;
+    margin-top: 20px;
+    color: #9e4646;
+}
+
+tbody tr:hover {
+    transform: scale($scale-factor);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+
+td a:hover {
+    text-decoration: underline;
+    color: rgb(111, 111, 111);
+}

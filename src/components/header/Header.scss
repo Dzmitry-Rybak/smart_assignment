@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    &_count {
+        display: flex;
+        margin-top: 10px;
+        p {
+            margin-right: 10px;
+            color: gray;
+        }
+    }
+}
+
+hr {
+    margin-bottom: 30px;
+}
